@@ -12,7 +12,7 @@ public class Main {
 		 // array size
 		ArrayInserccion arr;
 		 // reference to array
-		arr = new ArrayInserccion(maxSize); // creacion del  array en la clase main
+		arr = new ArrayInserccion(maxSize); // declaracion del  array 
 		arr.agregar(778);
 		arr.agregar(377);
 		arr.agregar(77);
@@ -36,7 +36,7 @@ public class Main {
 		arr.agregar(217);
 		arr.agregar(2);
 		arr.agregar(39);
-		arr.agregar(1);// agrega N cantidad de elementos dentro del Array
+		arr.agregar(1);// insert N cantidad de elementos dentro del Array
 		System.out.println("Array Original");
 		arr.mostrar();  // mostrar en pantalla el array desordenado
 		arr.inserccionSort();  // ordena el array con el algoritmo de Inserccion
