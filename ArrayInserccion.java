@@ -10,7 +10,7 @@ public class ArrayInserccion {
 				       */
 		private int nElementos;  
 
-		public  ArrayInserccion(int max)  // constructor[argumento]
+		public  ArrayInserccion(int max)  
 		{
 		   a = new long[max]; 
 		   nElementos = 0; // array vacio
@@ -26,7 +26,7 @@ public class ArrayInserccion {
 		{
 		for(int j=0; j<nElementos; j++)
 		 // for each ,
-		   System.out.print(a[j] + " ");     // 
+		   System.out.print(a[j] + " ");     
 		   System.out.println(" ");
 		}
 		
@@ -39,7 +39,7 @@ public class ArrayInserccion {
 		   entrada = salida;        
 		   while(entrada>0 && a[entrada-1] >= aux) // 
 		   	{
-		      a[entrada] = a[entrada-1];    // posicion hacia la derecha
+		      a[entrada] = a[entrada-1];    
 	     	  --entrada;            
 		}
 		a[entrada] = aux;       
