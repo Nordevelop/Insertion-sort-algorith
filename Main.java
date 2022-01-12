@@ -12,30 +12,30 @@ public class Main {
 		 // array size
 		ArrayInserccion arr;
 		 // reference to array
-		arr = new ArrayInserccion(maxSize); // declaracion del  array 
-		arr.agregar(778);
-		arr.agregar(377);
-		arr.agregar(77);
-		arr.agregar(287);
-		arr.agregar(324);
-		arr.agregar(99);
-		arr.agregar(44);
-		arr.agregar(55);
-		arr.agregar(22);
-		arr.agregar(88);
-		arr.agregar(11);
-		arr.agregar(00);
-		arr.agregar(66);
-		arr.agregar(33);
+		arr = new ArrayInserccion(maxSize); // declaracion del  array 	
+		arr.agregar(10);
 		arr.agregar(5);
-		arr.agregar(8);
-		arr.agregar(27);
-		arr.agregar(37);
-		arr.agregar(117);
-		arr.agregar(271);
-		arr.agregar(217);
+		arr.agregar(14);
+		arr.agregar(3);
+		arr.agregar(24);
 		arr.agregar(2);
-		arr.agregar(39);
+		arr.agregar(13);
+		arr.agregar(7);
+		arr.agregar(20);
+		arr.agregar(16);
+		arr.agregar(11);
+		arr.agregar(19);
+		arr.agregar(4);
+		arr.agregar(15);
+		arr.agregar(18);
+		arr.agregar(8);
+		arr.agregar(22);
+		arr.agregar(17);
+		arr.agregar(6);
+		arr.agregar(21);
+		arr.agregar(23);
+		arr.agregar(12);
+		arr.agregar(9);
 		arr.agregar(1);// insert N cantidad de elementos dentro del Array
 		System.out.println("Array Original");
 		arr.mostrar();  // mostrar en pantalla el array desordenado
