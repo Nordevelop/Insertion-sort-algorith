@@ -1,10 +1,12 @@
 package misClases;
 
+import java.util.Arrays;
+
 import java.util.*;
 
 
 public class ArrayInserccion {
-	          /*array encapsulado con acceso denegado en la clase Main()
+	          /*array y variable de control encapsulados con acceso denegado en la clase Main()
 		  * Author Nordevelop
 		  */
 	
@@ -26,7 +28,7 @@ public class ArrayInserccion {
 
 		public void mostrar(){  // mostrar contenido del Array en pantalla
 		
-		  for(int j=0; j<nElementos; j++){
+		  for(int j=0; j<nElementos; j++){  //for each
 		      System.out.print(a[j] + " ");     
 		      System.out.println(" ");
 		  }	
