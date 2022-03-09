@@ -7,7 +7,6 @@ public class Main {
 
 	public static void main(String[] args) {
 		/* Metodo de Ordenamiento de Inserccion.
-		 * 
 		 * Author Nordeverlop
 		 */
 		int cont=15; 
